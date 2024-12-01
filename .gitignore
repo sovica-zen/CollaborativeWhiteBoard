@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+.vscode/
+node_modules/
+react-client/build
+=======
+node_modules/
+.vscode
+react-client/build
+>>>>>>> gallery
+
+public/images
