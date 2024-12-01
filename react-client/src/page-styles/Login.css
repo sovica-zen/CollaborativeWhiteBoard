@@ -1,0 +1,8 @@
+.login {
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

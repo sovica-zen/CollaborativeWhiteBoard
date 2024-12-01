@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+  socket.emit("joinRoom", "room1")
+</script>
+<script src="scripts/ws_test.js"></script>
+</head>
+<body>
+  <p> Ta stran (skripta ws_test.js) posluša in pošilja koordinate 
+    miške ko kliknemo vsem povezanim brskalnikom. Odpri še eno okno in povleci z miško </p>
+  <ul id="coordlist"></ul>
+
+</body>
+</html>
